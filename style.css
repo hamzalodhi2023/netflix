@@ -1,0 +1,116 @@
+@font-face {
+  font-family: netflix;
+  src: url(netflix/NetflixSansBlack.ttf);
+  font-weight: black;
+}
+
+@font-face {
+  font-family: netflix;
+  src: url(netflix/NetflixSansBlack.ttf);
+  font-weight: bold;
+}
+
+@font-face {
+  font-family: netflix;
+  src: url(netflix/NetflixSansBlack.ttf);
+  font-weight: icon;
+}
+
+@font-face {
+  font-family: netflix;
+  src: url(netflix/NetflixSansBlack.ttf);
+  font-weight: Light;
+}
+
+@font-face {
+  font-family: netflix;
+  src: url(netflix/NetflixSansBlack.ttf);
+  font-weight: Medium;
+}
+
+@font-face {
+  font-family: netflix;
+  src: url(netflix/NetflixSansBlack.ttf);
+  font-weight: Regular;
+}
+
+@font-face {
+  font-family: netflix;
+  src: url(netflix/NetflixSansBlack.ttf);
+  font-weight: Thin;
+}
+
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  font-family: netflix;
+}
+
+a {
+  text-decoration: none;
+}
+
+/*************************************************************************************
+nav start
+***************************************************************************************/
+nav {
+  /* border: 1px solid #000; */
+  position: absolute;
+  top: 0;
+  left: 0;
+  height: 80px;
+  width: 100%;
+  padding: 0px 160px;
+
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.default-ltr-cache-1d568uk {
+  color: rgb(229, 9, 20);
+  fill: currentColor;
+  display: block;
+  width: 150px;
+}
+
+nav a {
+  /* border: 1px solid #000; */
+  width: 76.9px;
+  height: 32px;
+  background-color: red;
+  border-radius: 6px;
+  text-align: center;
+  font-size: 14px;
+  font-weight: 500;
+  color: white;
+  line-height: 1;
+  letter-spacing: 1px;
+
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+/*************************************************************************************
+nav end
+***************************************************************************************/
+
+/*************************************************************************************
+header Start
+***************************************************************************************/
+#header {
+  width: 100%;
+  min-height: 100vh;
+  background-image: linear-gradient(
+      to top,
+      rgba(0, 0, 0, 0.9) 0,
+      rgba(0, 0, 0, 0.5) 60%,
+      rgba(0, 0, 0, 0.9) 100%
+    ),
+    url(images/1.jpg);
+  background-position: center;
+  background-size: 130%;
+}
+/*************************************************************************************
+header end
+***************************************************************************************/
